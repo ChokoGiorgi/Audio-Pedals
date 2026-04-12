@@ -1,4 +1,7 @@
+use dasp::Frame;
+
+
 pub trait AudioProcessor {
-    fn process(&mut self, input: f32) -> f32; //effect (distortion -> distortion)
-    fn name(&mut self) -> &str; //returns the name of the pedal
+    fn process<F>(&self, input: &mut [F]) where F:Frame<Sample = f64>; //effect (distortion -> distortion)
+    fn name(&self) -> &str; //returns the name of the pedal
 }

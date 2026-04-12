@@ -4,3 +4,6 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+dasp = { version = "0.11.0", features = ["all"] }
+hound = "3.5.1"
+symphonia = { version = "0.5", features = ["mp3"] }
