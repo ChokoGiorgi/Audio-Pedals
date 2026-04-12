@@ -13,7 +13,7 @@ use crate::converter::frames_to_wav::frames_to_wav;
 fn main() -> Result<(), Box<dyn Error>> {
     let dist_pedal = Distortion::new(0.05, 5.0); //threshold, gain
 
-    let audio = mp3_to_frames("/Users/choko/Desktop/Projects/Audio-Pedals/guitar.mp3").map_err(std::io::Error::other)?;
+    let audio = mp3_to_frames("guitar.mp3").map_err(std::io::Error::other)?;
     let mut frames = audio.to_frame_vec::<2>().map_err(std::io::Error::other)?;
 
     println!("Checking {} pedal: ", dist_pedal.name());
