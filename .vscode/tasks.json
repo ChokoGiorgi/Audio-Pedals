@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "Build Guitar Pedalboard (Native macOS)",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-std=c++20",
+                "-O3", // Aggressive loop vectorization/inlining for real-time low latency
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "-framework", "CoreAudio",    // Links the OS hardware stream manager
+                "-framework", "AudioToolbox"  // Links the Remote I/O Audio Unit components
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Compiler task for zero-framework real-time CoreAudio pedalboard."
+        }
+    ]
+}
