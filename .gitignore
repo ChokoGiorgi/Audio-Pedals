@@ -26,6 +26,7 @@ main
 
 # CMake Build Directory
 build/
+target/
 
 # VS Code IDE folder
 .vscode/
