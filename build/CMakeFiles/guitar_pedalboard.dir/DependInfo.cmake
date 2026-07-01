@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/choko/Desktop/Projects/Audio-Pedals/PedalBoard.cpp" "CMakeFiles/guitar_pedalboard.dir/PedalBoard.cpp.o" "gcc" "CMakeFiles/guitar_pedalboard.dir/PedalBoard.cpp.o.d"
-  "/Users/choko/Desktop/Projects/Audio-Pedals/main.cpp" "CMakeFiles/guitar_pedalboard.dir/main.cpp.o" "gcc" "CMakeFiles/guitar_pedalboard.dir/main.cpp.o.d"
+  "/Users/choko/Desktop/Projects/Audio-Pedals/apps/main.cpp" "CMakeFiles/guitar_pedalboard.dir/apps/main.cpp.o" "gcc" "CMakeFiles/guitar_pedalboard.dir/apps/main.cpp.o.d"
+  "/Users/choko/Desktop/Projects/Audio-Pedals/src/PedalBoard.cpp" "CMakeFiles/guitar_pedalboard.dir/src/PedalBoard.cpp.o" "gcc" "CMakeFiles/guitar_pedalboard.dir/src/PedalBoard.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

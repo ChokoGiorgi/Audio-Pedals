@@ -6,7 +6,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 # add source files to compile here
-add_executable(guitar_pedalboard main.cpp PedalBoard.cpp)
+add_executable(guitar_pedalboard apps/main.cpp src/PedalBoard.cpp)
+
+target_include_directories(guitar_pedalboard PRIVATE include)
 
 if(APPLE)
     find_library(CORE_AUDIO_FRAMEWORK CoreAudio REQUIRED)

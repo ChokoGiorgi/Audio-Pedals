@@ -129,53 +129,53 @@ guitar_pedalboard/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/guitar_pedalboard.dir/build.make CMakeFiles/guitar_pedalboard.dir/build
 .PHONY : guitar_pedalboard/fast
 
-PedalBoard.o: PedalBoard.cpp.o
-.PHONY : PedalBoard.o
+apps/main.o: apps/main.cpp.o
+.PHONY : apps/main.o
 
 # target to build an object file
-PedalBoard.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/guitar_pedalboard.dir/build.make CMakeFiles/guitar_pedalboard.dir/PedalBoard.cpp.o
-.PHONY : PedalBoard.cpp.o
+apps/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/guitar_pedalboard.dir/build.make CMakeFiles/guitar_pedalboard.dir/apps/main.cpp.o
+.PHONY : apps/main.cpp.o
 
-PedalBoard.i: PedalBoard.cpp.i
-.PHONY : PedalBoard.i
+apps/main.i: apps/main.cpp.i
+.PHONY : apps/main.i
 
 # target to preprocess a source file
-PedalBoard.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/guitar_pedalboard.dir/build.make CMakeFiles/guitar_pedalboard.dir/PedalBoard.cpp.i
-.PHONY : PedalBoard.cpp.i
+apps/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/guitar_pedalboard.dir/build.make CMakeFiles/guitar_pedalboard.dir/apps/main.cpp.i
+.PHONY : apps/main.cpp.i
 
-PedalBoard.s: PedalBoard.cpp.s
-.PHONY : PedalBoard.s
+apps/main.s: apps/main.cpp.s
+.PHONY : apps/main.s
 
 # target to generate assembly for a file
-PedalBoard.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/guitar_pedalboard.dir/build.make CMakeFiles/guitar_pedalboard.dir/PedalBoard.cpp.s
-.PHONY : PedalBoard.cpp.s
+apps/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/guitar_pedalboard.dir/build.make CMakeFiles/guitar_pedalboard.dir/apps/main.cpp.s
+.PHONY : apps/main.cpp.s
 
-main.o: main.cpp.o
-.PHONY : main.o
+src/PedalBoard.o: src/PedalBoard.cpp.o
+.PHONY : src/PedalBoard.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/guitar_pedalboard.dir/build.make CMakeFiles/guitar_pedalboard.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/PedalBoard.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/guitar_pedalboard.dir/build.make CMakeFiles/guitar_pedalboard.dir/src/PedalBoard.cpp.o
+.PHONY : src/PedalBoard.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/PedalBoard.i: src/PedalBoard.cpp.i
+.PHONY : src/PedalBoard.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/guitar_pedalboard.dir/build.make CMakeFiles/guitar_pedalboard.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/PedalBoard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/guitar_pedalboard.dir/build.make CMakeFiles/guitar_pedalboard.dir/src/PedalBoard.cpp.i
+.PHONY : src/PedalBoard.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/PedalBoard.s: src/PedalBoard.cpp.s
+.PHONY : src/PedalBoard.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/guitar_pedalboard.dir/build.make CMakeFiles/guitar_pedalboard.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/PedalBoard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/guitar_pedalboard.dir/build.make CMakeFiles/guitar_pedalboard.dir/src/PedalBoard.cpp.s
+.PHONY : src/PedalBoard.cpp.s
 
 # Help Target
 help:
@@ -186,12 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... guitar_pedalboard"
-	@echo "... PedalBoard.o"
-	@echo "... PedalBoard.i"
-	@echo "... PedalBoard.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... apps/main.o"
+	@echo "... apps/main.i"
+	@echo "... apps/main.s"
+	@echo "... src/PedalBoard.o"
+	@echo "... src/PedalBoard.i"
+	@echo "... src/PedalBoard.s"
 .PHONY : help
 
 

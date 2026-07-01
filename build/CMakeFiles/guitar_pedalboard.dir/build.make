@@ -72,44 +72,44 @@ include CMakeFiles/guitar_pedalboard.dir/flags.make
 CMakeFiles/guitar_pedalboard.dir/codegen:
 .PHONY : CMakeFiles/guitar_pedalboard.dir/codegen
 
-CMakeFiles/guitar_pedalboard.dir/main.cpp.o: CMakeFiles/guitar_pedalboard.dir/flags.make
-CMakeFiles/guitar_pedalboard.dir/main.cpp.o: /Users/choko/Desktop/Projects/Audio-Pedals/main.cpp
-CMakeFiles/guitar_pedalboard.dir/main.cpp.o: CMakeFiles/guitar_pedalboard.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/choko/Desktop/Projects/Audio-Pedals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/guitar_pedalboard.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/guitar_pedalboard.dir/main.cpp.o -MF CMakeFiles/guitar_pedalboard.dir/main.cpp.o.d -o CMakeFiles/guitar_pedalboard.dir/main.cpp.o -c /Users/choko/Desktop/Projects/Audio-Pedals/main.cpp
+CMakeFiles/guitar_pedalboard.dir/apps/main.cpp.o: CMakeFiles/guitar_pedalboard.dir/flags.make
+CMakeFiles/guitar_pedalboard.dir/apps/main.cpp.o: /Users/choko/Desktop/Projects/Audio-Pedals/apps/main.cpp
+CMakeFiles/guitar_pedalboard.dir/apps/main.cpp.o: CMakeFiles/guitar_pedalboard.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/choko/Desktop/Projects/Audio-Pedals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/guitar_pedalboard.dir/apps/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/guitar_pedalboard.dir/apps/main.cpp.o -MF CMakeFiles/guitar_pedalboard.dir/apps/main.cpp.o.d -o CMakeFiles/guitar_pedalboard.dir/apps/main.cpp.o -c /Users/choko/Desktop/Projects/Audio-Pedals/apps/main.cpp
 
-CMakeFiles/guitar_pedalboard.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/guitar_pedalboard.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/choko/Desktop/Projects/Audio-Pedals/main.cpp > CMakeFiles/guitar_pedalboard.dir/main.cpp.i
+CMakeFiles/guitar_pedalboard.dir/apps/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/guitar_pedalboard.dir/apps/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/choko/Desktop/Projects/Audio-Pedals/apps/main.cpp > CMakeFiles/guitar_pedalboard.dir/apps/main.cpp.i
 
-CMakeFiles/guitar_pedalboard.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/guitar_pedalboard.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/choko/Desktop/Projects/Audio-Pedals/main.cpp -o CMakeFiles/guitar_pedalboard.dir/main.cpp.s
+CMakeFiles/guitar_pedalboard.dir/apps/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/guitar_pedalboard.dir/apps/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/choko/Desktop/Projects/Audio-Pedals/apps/main.cpp -o CMakeFiles/guitar_pedalboard.dir/apps/main.cpp.s
 
-CMakeFiles/guitar_pedalboard.dir/PedalBoard.cpp.o: CMakeFiles/guitar_pedalboard.dir/flags.make
-CMakeFiles/guitar_pedalboard.dir/PedalBoard.cpp.o: /Users/choko/Desktop/Projects/Audio-Pedals/PedalBoard.cpp
-CMakeFiles/guitar_pedalboard.dir/PedalBoard.cpp.o: CMakeFiles/guitar_pedalboard.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/choko/Desktop/Projects/Audio-Pedals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/guitar_pedalboard.dir/PedalBoard.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/guitar_pedalboard.dir/PedalBoard.cpp.o -MF CMakeFiles/guitar_pedalboard.dir/PedalBoard.cpp.o.d -o CMakeFiles/guitar_pedalboard.dir/PedalBoard.cpp.o -c /Users/choko/Desktop/Projects/Audio-Pedals/PedalBoard.cpp
+CMakeFiles/guitar_pedalboard.dir/src/PedalBoard.cpp.o: CMakeFiles/guitar_pedalboard.dir/flags.make
+CMakeFiles/guitar_pedalboard.dir/src/PedalBoard.cpp.o: /Users/choko/Desktop/Projects/Audio-Pedals/src/PedalBoard.cpp
+CMakeFiles/guitar_pedalboard.dir/src/PedalBoard.cpp.o: CMakeFiles/guitar_pedalboard.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/choko/Desktop/Projects/Audio-Pedals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/guitar_pedalboard.dir/src/PedalBoard.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/guitar_pedalboard.dir/src/PedalBoard.cpp.o -MF CMakeFiles/guitar_pedalboard.dir/src/PedalBoard.cpp.o.d -o CMakeFiles/guitar_pedalboard.dir/src/PedalBoard.cpp.o -c /Users/choko/Desktop/Projects/Audio-Pedals/src/PedalBoard.cpp
 
-CMakeFiles/guitar_pedalboard.dir/PedalBoard.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/guitar_pedalboard.dir/PedalBoard.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/choko/Desktop/Projects/Audio-Pedals/PedalBoard.cpp > CMakeFiles/guitar_pedalboard.dir/PedalBoard.cpp.i
+CMakeFiles/guitar_pedalboard.dir/src/PedalBoard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/guitar_pedalboard.dir/src/PedalBoard.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/choko/Desktop/Projects/Audio-Pedals/src/PedalBoard.cpp > CMakeFiles/guitar_pedalboard.dir/src/PedalBoard.cpp.i
 
-CMakeFiles/guitar_pedalboard.dir/PedalBoard.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/guitar_pedalboard.dir/PedalBoard.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/choko/Desktop/Projects/Audio-Pedals/PedalBoard.cpp -o CMakeFiles/guitar_pedalboard.dir/PedalBoard.cpp.s
+CMakeFiles/guitar_pedalboard.dir/src/PedalBoard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/guitar_pedalboard.dir/src/PedalBoard.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/choko/Desktop/Projects/Audio-Pedals/src/PedalBoard.cpp -o CMakeFiles/guitar_pedalboard.dir/src/PedalBoard.cpp.s
 
 # Object files for target guitar_pedalboard
 guitar_pedalboard_OBJECTS = \
-"CMakeFiles/guitar_pedalboard.dir/main.cpp.o" \
-"CMakeFiles/guitar_pedalboard.dir/PedalBoard.cpp.o"
+"CMakeFiles/guitar_pedalboard.dir/apps/main.cpp.o" \
+"CMakeFiles/guitar_pedalboard.dir/src/PedalBoard.cpp.o"
 
 # External object files for target guitar_pedalboard
 guitar_pedalboard_EXTERNAL_OBJECTS =
 
-guitar_pedalboard: CMakeFiles/guitar_pedalboard.dir/main.cpp.o
-guitar_pedalboard: CMakeFiles/guitar_pedalboard.dir/PedalBoard.cpp.o
+guitar_pedalboard: CMakeFiles/guitar_pedalboard.dir/apps/main.cpp.o
+guitar_pedalboard: CMakeFiles/guitar_pedalboard.dir/src/PedalBoard.cpp.o
 guitar_pedalboard: CMakeFiles/guitar_pedalboard.dir/build.make
 guitar_pedalboard: CMakeFiles/guitar_pedalboard.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/choko/Desktop/Projects/Audio-Pedals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable guitar_pedalboard"
