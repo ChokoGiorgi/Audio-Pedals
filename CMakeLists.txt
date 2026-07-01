@@ -1,12 +1,14 @@
 cmake_minimum_required(VERSION 3.15)
 project(GuitarPedalboard VERSION 1.0.0 LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 # add source files to compile here
-add_executable(guitar_pedalboard main.cpp PedalBoard.cpp)
+add_executable(guitar_pedalboard apps/main.cpp src/PedalBoard.cpp)
+
+target_include_directories(guitar_pedalboard PRIVATE include)
 
 if(APPLE)
     find_library(CORE_AUDIO_FRAMEWORK CoreAudio REQUIRED)

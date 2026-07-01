@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/guitar_pedalboard.dir/PedalBoard.cpp.o"
-  "CMakeFiles/guitar_pedalboard.dir/PedalBoard.cpp.o.d"
-  "CMakeFiles/guitar_pedalboard.dir/main.cpp.o"
-  "CMakeFiles/guitar_pedalboard.dir/main.cpp.o.d"
+  "CMakeFiles/guitar_pedalboard.dir/apps/main.cpp.o"
+  "CMakeFiles/guitar_pedalboard.dir/apps/main.cpp.o.d"
+  "CMakeFiles/guitar_pedalboard.dir/src/PedalBoard.cpp.o"
+  "CMakeFiles/guitar_pedalboard.dir/src/PedalBoard.cpp.o.d"
   "guitar_pedalboard"
   "guitar_pedalboard.pdb"
 )
